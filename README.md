@@ -28,5 +28,5 @@ The following video demonstrates the walkthrough of interacting with the oracle 
 
 As shown in the video, the contract can be easily seen using a block explorer like Etherscan (Access: https://ropsten.etherscan.io/address/0x724f120b0CA1D35Bada2eb06C28A6AFA9f75217A). Since I wanted to implement a basic security system, the internal state of the contract can only be changed by the address that created it (In this case my test address). However, its value can be queried by anyone inside or outside the blockchain through the queryValue()	 function which returns the current value of the value variable and throws a storedValue event.
 
-## Conclusion and possible improvements.
+## Conclusion and possible improvements
 I started working on this project awfully near the deadline and, though it is in a fairly working state, I didn't have time to implement all the features I would have liked to. I could not, for example, implement a reward system for the oracle (Using the UMB token, preferentially), and thus far it has only two available functions (queryValue and updateState) and it can only store a single type of value ("BTC-USD"). Of course, all these improvements could be easily implemented with some more time and work.
